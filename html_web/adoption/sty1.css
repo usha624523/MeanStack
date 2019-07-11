@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+} body{
+    background-image: url("image2.jpg");
+    height:100vh;
+   background-size: cover ;
+
+   background-position: center;
+}
+#outercontainer {
+    background-color: pink;
+    color: black;
+         margin-left: auto;
+         padding-left: 20px;
+         margin-top: 20px;
+         margin-right: auto;
+         width: 500px;
+         /*opacity: 0.5;*/
+        /* text-align: center;*/
+
+     }
+     .form-row {
+        margin-bottom: 10px;
+    }
+     .main-label {
+        font-weight: bold;
+        width: 200px;
+        /* label tags don't take in widths unless we use display: block*/
+        display: block;
+        float: left;
+        text-align: right;
+        margin-right: 10px;
+    }
+    
